@@ -1,18 +1,42 @@
-import { defineConfig, globalIgnores } from "eslint/config";
-import nextVitals from "eslint-config-next/core-web-vitals";
-import nextTs from "eslint-config-next/typescript";
+import antfu from '@antfu/eslint-config'
 
-const eslintConfig = defineConfig([
-  ...nextVitals,
-  ...nextTs,
-  // Override default ignores of eslint-config-next.
-  globalIgnores([
-    // Default ignores of eslint-config-next:
-    ".next/**",
-    "out/**",
-    "build/**",
-    "next-env.d.ts",
-  ]),
-]);
+export default antfu(
+    {
+        stylistic: {
+            indent: 4,
+            quotes: 'single',
+            semi: false,
+            objectCurlySpacing: true,
+            arrayBracketSpacing: false,
+            arrowParens: 'avoid',
+            trailingComma: 'all',
+            maxLineLength: 120,
+            spaceBeforeFunctionParen: false,
+            bracketSpacing: true,
+            blockSpacing: true,
+            keySpacing: true,
+            commaDangle: 'always-multiline',
+        },
+    },
+    {
+        files: ['**/*.js', '**/*.ts'],
+        rules: {
+            'node/prefer-global/process': 'off',
+            'no-console': 'on',
+            'antfu/no-top-level-await': 'off',
 
-export default eslintConfig;
+            'style/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+            'style/comma-spacing': ['error', { before: false, after: true }],
+            'style/object-curly-newline': ['error', {
+                multiline: true,
+                consistent: true,
+            }],
+            'style/padding-line-between-statements': [
+                'error',
+                { blankLine: 'always', prev: '*', next: 'return' },
+                { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+                { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
+            ],
+        },
+    },
+)
