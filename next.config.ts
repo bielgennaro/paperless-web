@@ -1,7 +1,18 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
+import { i18n } from './next-i18next.config'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+    i18n,
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'images.unsplash.com',
+                port: '',
+                pathname: '/**',
+            },
+        ],
+    },
+}
 
-export default nextConfig;
+export default nextConfig

@@ -1,0 +1,43 @@
+{
+    "hero": {
+        "title": "Transform templates into professional documents in seconds.",
+        "subtitle": "Manage your documents effortlessly",
+        "description": "Save time, reduce errors, and contribute to a paperless office. We democratize document automation for everyone.",
+        "buttons": {
+            "startFree": "Start for free",
+            "learnMore": "Learn more"
+        }
+    },
+    "features": {
+        "badge": "Features",
+        "title": "Everything you need to",
+        "titleBreak": "automate your documents",
+        "description": "A complete platform with all the tools you need to transform your document creation process.",
+        "items": {
+            "instant": {
+                "title": "Instant Generation",
+                "description": "Create professional documents in seconds with our smart templates."
+            },
+            "customization": {
+                "title": "Total Customization",
+                "description": "Customize every detail of your documents with our intuitive interface."
+            },
+            "security": {
+                "title": "Guaranteed Security",
+                "description": "Your data protected with end-to-end encryption and GDPR compliance."
+            },
+            "cloud": {
+                "title": "Cloud Access",
+                "description": "Work from anywhere, on any device, at any time."
+            },
+            "collaboration": {
+                "title": "Team Collaboration",
+                "description": "Work together with your team in real-time on the same documents."
+            },
+            "analytics": {
+                "title": "Advanced Analytics",
+                "description": "Track metrics and optimize your workflow with intelligent insights."
+            }
+        }
+    }
+}

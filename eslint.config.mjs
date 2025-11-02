@@ -22,7 +22,7 @@ export default antfu(
         files: ['**/*.js', '**/*.ts'],
         rules: {
             'node/prefer-global/process': 'off',
-            'no-console': 'on',
+            'no-console': 'warn',
             'antfu/no-top-level-await': 'off',
 
             'style/brace-style': ['error', '1tbs', { allowSingleLine: true }],

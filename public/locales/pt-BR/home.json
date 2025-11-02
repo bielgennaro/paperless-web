@@ -1,0 +1,43 @@
+{
+    "hero": {
+        "title": "Transforme templates em documentos profissionais em segundos",
+        "subtitle": "Gerencie seus documentos sem esforço",
+        "description": "Economize tempo, reduza erros e contribua para um escritório sem papel. Democratizamos a automação de documentos para todos.",
+        "buttons": {
+            "startFree": "Começar gratuitamente",
+            "learnMore": "Saiba mais"
+        }
+    },
+    "features": {
+        "badge": "Funcionalidades",
+        "title": "Tudo que você precisa para",
+        "titleBreak": "automatizar seus documentos",
+        "description": "Uma plataforma completa com todas as ferramentas necessárias para transformar seu processo de criação de documentos.",
+        "items": {
+            "instant": {
+                "title": "Geração Instantânea",
+                "description": "Crie documentos profissionais em segundos com nossos templates inteligentes."
+            },
+            "customization": {
+                "title": "Personalização Total",
+                "description": "Customize cada detalhe dos seus documentos com nossa interface intuitiva."
+            },
+            "security": {
+                "title": "Segurança Garantida",
+                "description": "Seus dados protegidos com criptografia de ponta e conformidade LGPD."
+            },
+            "cloud": {
+                "title": "Acesso em Nuvem",
+                "description": "Trabalhe de qualquer lugar, em qualquer dispositivo, a qualquer momento."
+            },
+            "collaboration": {
+                "title": "Colaboração em Equipe",
+                "description": "Trabalhe junto com sua equipe em tempo real nos mesmos documentos."
+            },
+            "analytics": {
+                "title": "Analytics Avançado",
+                "description": "Acompanhe métricas e otimize seu fluxo de trabalho com insights inteligentes."
+            }
+        }
+    }
+}
